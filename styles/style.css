@@ -28,12 +28,19 @@
   align-items: center;
   width: 730px;
   margin-left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
 }
 
 .header__subtitle {
   position: absolute;
   left: 64px;
   width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  
 }
 
 .header__main-illustration {
