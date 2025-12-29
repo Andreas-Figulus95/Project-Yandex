@@ -84,7 +84,10 @@
 }
 
 .two-columns__brief {
-  width: 175px;
+  min-width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .two-columns__main-text {
@@ -95,9 +98,13 @@
 
 .two-columns__paragraph {
   display: flex;
+  line-height: 34px;
+  font-size: 24px;
   justify-content: space-between;
+  font-weight: normal;
   margin-top: 0;
   margin-bottom: 30px;
+  font-weight: normal;
 }
 
 .two-columns__span-accent {
@@ -107,4 +114,8 @@
 .two-columns_paragraph p {
   margin-top: 0;
   margin-bottom: 30px;
+}
+
+.section-title {
+  
 }
