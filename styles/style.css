@@ -162,6 +162,28 @@ section-subtitle {
   font-weight: normal;
 }
 
+.feinman__title {
+  line-height: 1.15px;
+  font-size: 120px;
+  font-weight: 600;
+  
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
 .feinman__pic {
   position: absolute;
+}
+
+.feinman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
 }
