@@ -177,6 +177,8 @@ section-subtitle {
 
 .feinman__pic {
   position: absolute;
+  width: 867px;
+  height: 637px;
 }
 
 .feinman__link {
@@ -186,4 +188,52 @@ section-subtitle {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+}
+
+.kaufman {
+display: flex;
+position: relative;
+overflow: hidden;
+flex-direction: column;
+background-color: #1F1F1F;
+z-index: -2;
+}
+
+.section-title_theme_dark {
+margin: 90px auto 20px auto;
+color: white;
+}
+
+.section-subtitle_theme_dark {
+margin: 0 auto;
+color: white;
+}
+
+.table_theme_dark {
+margin: 0 auto 90px auto;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-top: 80px;
+}
+
+.table__heading_theme_dark {
+margin-top: 0;
+margin-bottom: 20px;
+}
+
+.table__text_theme_dark {
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  right: -210px;
+  top: 0;
+  z-index: -1;
 }
